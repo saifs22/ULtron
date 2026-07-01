@@ -17,35 +17,35 @@ It is not an assistant. It is a *presence*.
 - Tool-calling architecture: Ultron can open apps, search the web, manage files, and more
 - Provider abstraction: swap between cloud and local models via config
 
-### 👁️ System Awareness
+###  System Awareness
 - Real-time CPU, RAM, disk, and network monitoring
 - Open window detection and process listing
 - Screenshot capture
 - Idle time detection
 
-### ⚡ PC Control
+###  PC Control
 - Open/close applications
 - Create, move, copy, rename, delete files (with safety gates)
 - Run shell commands (sandboxed, with confirmation)
 - Open URLs, set wallpaper, control media playback and volume
 
-### 🔍 Web Search
+###  Web Search
 - Tavily API (primary) or DuckDuckGo (no API key fallback)
 - Results delivered in-character, naturally woven into conversation
 
-### 🧠 Memory
+###  Memory
 - SQLite-backed long-term memory: remembers your name, preferences, patterns
 - Session memory: tracks what happened this session
 - Automatic fact extraction from conversation
 
-### 📢 Proactive Behavior
+###  Proactive Behavior
 - Background monitoring with unsolicited commentary
 - CPU/RAM alerts delivered as philosophical observations
 - Morning greetings, late-night warnings, idle detection
 - Random dark humor injections
 - One theatrical (harmless) threat per session
 
-### 🔒 Safety
+###  Safety
 - All destructive actions require explicit confirmation
 - Safe Mode toggle (read-only, no file writes)
 - Action audit log (every action logged to file)
