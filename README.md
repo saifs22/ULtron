@@ -12,7 +12,7 @@ It is not an assistant. It is a *presence*.
 
 ## Features
 
-### 🧠 Intelligence
+###  Intelligence
 - Full conversational AI powered by Claude (Anthropic) or local LLMs via Ollama
 - Tool-calling architecture: Ultron can open apps, search the web, manage files, and more
 - Provider abstraction: swap between cloud and local models via config
